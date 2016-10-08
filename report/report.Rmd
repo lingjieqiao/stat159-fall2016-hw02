@@ -9,11 +9,11 @@ output: pdf_document
 This report aims to reproduce the main results displayed in **section 3.1: Simple Linear Regression** of the book **_An Introduction to Statistical Learning_** and perform simple linear regression analysis on the data set `Advertising`.
 
 ## Introduction
-The overall goal is to provide advice on how to improve sales of the particular product. More specifically, the idea is to determine whether there is an association between advertising and sales, and if so, develop an accurate model that can be used to predict sales on the basis of the three media budgets.
+According to the book, the overall goal is to provide advice on how to improve sales of the particular product. More specifically, the idea is to determine whether there is an association between advertising and sales, and if so, develop an accurate model that can be used to predict sales on the basis of the three media budgets. We therefore fit a simple linear regression model, as discussed in the methodology part to analyze such association.
 
 
 ## Data
-The data set `Advertising` is provided by the author of the book. This data set has four variables. It consists of the Sales (in thousands of units) of a particular product in 200 different markets, along with advertising budgets (in thousands of dollars) for the product in each of those markets for three different media: TV, Radio, and Newspaper.
+The data set `Advertising` is provided by the author of the book. This data set has four variables and we are only looking at two of them. According to the book, it consists of the Sales (in thousands of units) of a particular product in 200 different markets, along with advertising budgets (in thousands of dollars) for the product in each of those markets for three different media: TV, Radio, and Newspaper.
 
 ## Methology
 In this paper, we mainly consider the relatinoship between Sales and one media from the data set, **TV**. In order to explore this relationship, we use a simple linear model and regress `sales` onto `TV` by fitting the model:
