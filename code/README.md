@@ -3,7 +3,7 @@
 
 ### Code
 
-This directory mainly holds the original information and data set downloaded from the book called `Advertising.csv`.
+This directory holds the code used to create summary statistics, all the pdf and png images and all the linear regression model.
 
 This directory holds:
 * README.md
