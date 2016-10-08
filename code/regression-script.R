@@ -9,6 +9,6 @@ summary(lm_ad)
 
 # Create Scatterplot
 png(../images/scatterplot-tv-sales.png)
-plot(advertising$TV, advertising$Sales, col = "red", xlab = "TV", ylab = "Sales") +
+plot(advertising$TV, advertising$Sales, col = "red", main = "Figure 1: Scatterplot with fitted regression line", xlab = "TV", ylab = "Sales") +
 	abline(lm_ad, col = "blue")
 dev.off()
