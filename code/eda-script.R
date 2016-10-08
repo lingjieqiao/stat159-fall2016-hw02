@@ -12,10 +12,11 @@ sink()
 
 # Histogram of TV
 
+png('images/histogram-tv.png')
 hist(advertising$TV)
-dev.copy(png, 'images/histogram-tv.png')
 dev.off()
-dev.copy(pdf, 'images/histogram-tv.pdf')
+pdf('images/histogram-tv.pdf')
+hist(advertising$TV)
 dev.off()
 
 sink("data/eda-output.txt", append=TRUE)
@@ -25,10 +26,11 @@ summary(advertising$Sales)
 sink()
 
 # Histogram of Sales
+png('images/histogram-sales.png')
 hist(advertising$Sales)
-dev.copy(png, 'images/histogram-sales.png')
 dev.off()
-dev.copy(pdf, 'images/histogram-sales.pdf')
+pdf('images/histogram-sales.pdf')
+hist(advertising$Sales)
 dev.off()
 
 
