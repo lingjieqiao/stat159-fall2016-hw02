@@ -7,7 +7,7 @@ This repository holds the information of Course Stats 159 at UC Berkeley, fall 2
 
 Course website: [gastonsanchez.com/stat159](http://gastonsanchez.com/stat159)
 
-Project instruction: [github project repository](https://github.com/ucb-stat159/stat159-fall-2016/tree/master/projects)
+Project instruction: [github project repository](https://github.com/ucb-stat159/stat159-fall-2016/blob/master/hws/hw02/stat159-hw02-simple-regression.Rmd)
 
 For the purpose of reproducibility, this repository holds four separate folders that could be used for further study:
 * data: contains the original `Advertising.csv` dataset downloaded from

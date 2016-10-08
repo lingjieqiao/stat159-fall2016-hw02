@@ -3,19 +3,13 @@
 
 ### Data
 
-This folder mainly holds the original information and data set downloaded from `Advertising`.
+This directory mainly holds the original information and data set downloaded from `Advertising`.
 
-Course website: [gastonsanchez.com/stat159](http://gastonsanchez.com/stat159)
+Data Source: [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv)
 
-Project instruction: [github project repository](https://github.com/ucb-stat159/stat159-fall-2016/tree/master/projects)
+Credit: Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 
-For the purpose of reproducibility, this repository holds four separate folders that could be used for further study:
-* data: contains the original `Advertising.csv` dataset downloaded from
-* code: contains the code used to reproduce the simple regression analysis
-* report: contains the author's own thoughts on 
-* images: contains the reproduced images
-
-Table of Contents:
+This directory holds:
 * Abstract
 * Data
 * Methodology

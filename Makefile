@@ -8,16 +8,16 @@ I = images
 all: $(R)/report.pdf $(D)/eda-output.txt $(D)/regression.RData
 
 data: 
-	curl -0 http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv > $(D)
+	curl -0 http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv > $(D)/Advertising.csv
 
-$(D)/regression.RData: $(C)/regression-script.R
+$(D)/regression.RData: $(C)/regression-script.R $(D)/Advertising.csv
 	Rscript $(C)/regression-script.R
 
-$(D)/eda-output.txt: $(C)/eda-script.R
+$(D)/eda-output.txt: $(C)/eda-script.R $(D)/Advertising.csv
 	Rscript $(C)/eda-script.R
 
-$(R)/report.pdf: $(R)/report.Rmd $(D)/regression.RData $(I)/scatterplot-tv-sales.png
-	pandoc -s $(R)/report.Rmd -o $(R)/report.pdf
+#$(R)/report.pdf: $(R)/report.Rmd $(D)/regression.RData $(I)/scatterplot-tv-sales.png
+#	pandoc -s $(R)/report.Rmd -o $(R)/report.pdf
 
 clean: 
 	rm -f $(R)/report.pdf
