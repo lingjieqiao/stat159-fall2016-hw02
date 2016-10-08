@@ -12,8 +12,8 @@ Credit to: Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 This directory holds:
 * README.md
 * Advertising.csv
-* eda-output.txt*
-regression.RData
+* eda-output.txt
+* regression.RData
 
 
 ### LICENSE
