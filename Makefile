@@ -16,8 +16,8 @@ $(D)/regression.RData: $(C)/regression-script.R $(D)/Advertising.csv
 $(D)/eda-output.txt: $(C)/eda-script.R $(D)/Advertising.csv
 	Rscript $(C)/eda-script.R
 
-#$(R)/report.pdf: $(R)/report.Rmd $(D)/regression.RData $(I)/scatterplot-tv-sales.png
-#	pandoc -s $(R)/report.Rmd -o $(R)/report.pdf
+$(R)/report.pdf: $(R)/report.Rmd $(D)/regression.RData $(I)/scatterplot-tv-sales.png
+	pandoc -s $(R)/report.Rmd -o $(R)/report.pdf
 
 clean: 
 	rm -f $(R)/report.pdf
