@@ -3,18 +3,17 @@
 
 ### Data
 
-This directory mainly holds the original information and data set downloaded from `Advertising`.
+This directory mainly holds the original information and data set downloaded from the book called `Advertising.csv`.
 
 Data Source: [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv)
 
-Credit: Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+Credit to: Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 
 This directory holds:
-* Abstract
-* Data
-* Methodology
-* Results
-* Conclusions
+* README.md
+* Advertising.csv
+* eda-output.txt*
+regression.RData
 
 
 ### LICENSE
